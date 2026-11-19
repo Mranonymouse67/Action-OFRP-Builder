@@ -16,10 +16,11 @@ on:
         description: "Select Device Tree repository"
         required: true
         type: choice
-        default: https://github.com/AzzyC/ofox_device_xiaomi_peridot
+        default: https://github.com/Adithy4n/recovery_device_xiaomi_sky.git
         options:
           - https://github.com/AzzyC/ofox_device_xiaomi_peridot
           - https://gitlab.com/OrangeFox/device/peridot_new
+          - https://github.com/Adithy4n/recovery_device_xiaomi_sky.git
 
       device_tree_branch:
         description: "Select Device Tree branch"
@@ -52,7 +53,7 @@ on:
         description: "Select Telegram notification mode"
         required: true
         type: choice
-        default: quiet
+        default: loud
         options:
           - quiet
           - loud
