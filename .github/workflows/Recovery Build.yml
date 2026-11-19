@@ -70,10 +70,10 @@ jobs:
       MANIFEST_BRANCH: ${{ inputs.manifest_version }}
       DEVICE_TREE_URL: ${{ inputs.device_tree_url }}
       DEVICE_TREE_BRANCH: ${{ inputs.device_tree_branch }}
-      DEVICE_PATH: device/xiaomi/peridot
-      DEVICE_NAME: peridot
+      DEVICE_PATH: device/xiaomi/sky
+      DEVICE_NAME: sky
       BUILD_TARGET: recovery
-      TELEGRAM_CHAT_ID: ${{ inputs.notification_mode == 'quiet' && '-1002917930475' || '-1001480977582' }}
+      TELEGRAM_CHAT_ID: ${{ inputs.notification_mode == 'quiet' && '-1004295554152'}}
       TZ: Europe/London
       USE_CCACHE: "1"
       CCACHE_DIR: ${{ github.workspace }}/.ccache
